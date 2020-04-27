@@ -1,0 +1,8 @@
+{
+  "name": "hubot-todo",
+  "description": "To-do list manager",
+  "repository": "https://github.com/ilzamact/hubot-todo",
+  "logo": "",
+  "keywords": ["node"],
+  "image": "heroku/nodejs"
+}
