@@ -4,6 +4,8 @@
   "private": false,
   "author": "ilzamact <lozoot917@gmail.com>",
   "description": "A simple helpful robot for your Company",
+  "repository": "https://github.com/ilzamact/hubot-todo",
+  "license": "ISC",
   "dependencies": {
     "hubot": "^3.3.2",
     "hubot-diagnostics": "^1.0.0",

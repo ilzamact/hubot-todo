@@ -9,7 +9,7 @@
 
 'use strict'
 const todo = require('todo');
-console.log(todo.list());
+console.info(todo.list());
 
 module.exports = (robot) => {
     robot.respond(/todo (.+)/i, (msg) => {
