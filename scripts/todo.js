@@ -12,6 +12,10 @@ const todo = require('todo');
 console.info(todo.list());
 
 module.exports = (robot) => {
+    robot.hear(/hello>/i, (msg) => {
+        const user_id = msg.message.user.id;
+        msg.send(`Hello,<@${user_id}>`);
+    });
     robot.respond(/todo (.+)/i, (msg) => {
         const task = msg.match[1].trim();
         todo.todo(task);
