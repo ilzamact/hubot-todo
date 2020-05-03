@@ -941,7 +941,7 @@ supports-color@^2.0.0:
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
   integrity sha1-U10EXOa2Nj+kARcIRimZXp3zJMc=
 
-todo@../todo:
+todo@./todo:
   version "1.0.0"
 
 toidentifier@1.0.0:
